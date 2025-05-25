@@ -6,7 +6,7 @@
   <link href="./css/main.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline ">
+  <h1 class="text-3xl font-bold underline bg-amber-200">
     Hello world!
   </h1>
 </body>
