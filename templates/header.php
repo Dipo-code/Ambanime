@@ -20,10 +20,9 @@
       <li><a href="#" class="hover:underline">Daftar Anime</a></li>
       <li><a href="#" class="hover:underline">Jadwal Rilis</a></li>
     </ul>
+
     <div class=""><input class="bg-gray-100 text-cyan-800   rounded-sm  px-3 py-1 focus:outline-none" type="text" placeholder="Cari anime disini..."></div>
   </div>
 </nav>
 
-<!-- end navbar -->
-</body>
-</html>
+<main>
