@@ -11,14 +11,14 @@
 </head>
 <body class="bg-gray-200 font-sans">
 <!-- Navbar -->
-<nav class="bg-cyan-800 text-white px-6 py-3  ">
+<nav class="bg-cyan-900 text-white px-6 py-3  ">
   <div class="max-w-9xl mx-auto flex justify-between items-center">
 
     <div class="text-2xl font-bold  ">AMBANIME</div>
     <ul class="flex space-x-8 text-lg">
-      <li><a href="#" class="hover:underline">Home</a></li>
-      <li><a href="#" class="hover:underline">Daftar Anime</a></li>
-      <li><a href="#" class="hover:underline">Jadwal Rilis</a></li>
+      <li><a href="index.php" class="hover:underline">Home</a></li>
+      <li><a href="daftar-anime.php" class="hover:underline">Daftar Anime</a></li>
+      <li><a href="jadwal-rilis" class="hover:underline">Jadwal Rilis</a></li>
     </ul>
 
     <div class=""><input class="bg-gray-100 text-cyan-800   rounded-sm  px-3 py-1 focus:outline-none" type="text" placeholder="Cari anime disini..."></div>
