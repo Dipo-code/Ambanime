@@ -7,9 +7,9 @@ include '../templates/header.php';
   <div id="slider" class="flex transition-transform duration-500" style="width: 300vw;">
 
     <!-- Hero / Section 1 -->
-   <section class="bg-gray-100 w-screen h-screen">
+   <section class=" w-screen ">
 
-    <div class="max-w-7xl mx-auto py-20 grid  grid-cols-[55%_45%] ">
+    <div class="container mx-auto py-20 grid  grid-cols-[55%_45%] ">
         <div>
 <h5 class="font-semibold text-cyan-900">Total Episode 10</h5>
 <h1 class="text-6xl font-bold pb-5  text-cyan-900">Kimetsu No Ngawi</h1>
@@ -22,7 +22,35 @@ include '../templates/header.php';
   <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Fantasy</a>
 </div>
 
-<button class="bg-cyan-900 text-white text-center py-2 px-20 rounded-sm mt-8"><a href="">Play</a></button>
+<a href="#"><button class="bg-cyan-900 text-white text-center py-2 px-20 rounded-sm mt-8">Play</button></a>
+
+    </div>
+
+   <div>
+        <img src="assets/images/1283351.jpg" class="w-full h-full object-cover rounded" alt="gambar anime">
+    </div>
+
+
+</div>
+  </section>
+  <!-- end-section1 -->
+<!-- Hero / Section 1 -->
+   <section class="bg-gray-100 w-screen ">
+
+    <div class="container mx-auto py-20 grid  grid-cols-[55%_45%] ">
+        <div>
+<h5 class="font-semibold text-cyan-900">Total Episode 10</h5>
+<h1 class="text-6xl font-bold pb-5  text-cyan-900">Kimetsu No Ngawi</h1>
+<p class=" leading-8 tracking-wider text-cyan-900">RusdiDor dan adiknya Imutzuko berasal dari gunung di selatan ngawi, semua berubah ketika muzantukam datang dan menghancurkan desa mereka. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, consequuntur nemo. Fuga nobis, omnis eos deleniti architecto earum veniam officia.</p>
+
+<div class="grid grid-cols-6 gap-4 mt-8">
+  <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Action</a>
+  <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Romance</a>
+  <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Comedy</a>
+  <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Fantasy</a>
+</div>
+
+<a href="#"><button class="bg-cyan-900 text-white text-center py-2 px-20 rounded-sm mt-8">Play</button></a>
 
     </div>
 
@@ -35,9 +63,9 @@ include '../templates/header.php';
   </section>
   <!-- end-section1 -->
 <!-- Hero / Section 1 -->
-   <section class="bg-gray-100 w-screen h-screen">
+   <section class="bg-gray-100 w-screen ">
 
-    <div class="max-w-7xl mx-auto py-20 grid  grid-cols-[55%_45%] ">
+    <div class="container mx-auto py-20 grid  grid-cols-[55%_45%] ">
         <div>
 <h5 class="font-semibold text-cyan-900">Total Episode 10</h5>
 <h1 class="text-6xl font-bold pb-5  text-cyan-900">Kimetsu No Ngawi</h1>
@@ -50,35 +78,7 @@ include '../templates/header.php';
   <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Fantasy</a>
 </div>
 
-<button class="bg-cyan-900 text-white text-center py-2 px-20 rounded-sm mt-8"><a href="">Play</a></button>
-
-    </div>
-
-   <div class=" ">
-        <img src="assets/images/1283351.jpg" class="w-full h-full object-cover rounded" alt="gambar anime">
-    </div>
-
-
-</div>
-  </section>
-  <!-- end-section1 -->
-<!-- Hero / Section 1 -->
-   <section class="bg-gray-100 w-screen h-screen">
-
-    <div class="max-w-7xl mx-auto py-20 grid  grid-cols-[55%_45%] ">
-        <div>
-<h5 class="font-semibold text-cyan-900">Total Episode 10</h5>
-<h1 class="text-6xl font-bold pb-5  text-cyan-900">Kimetsu No Ngawi</h1>
-<p class=" leading-8 tracking-wider text-cyan-900">RusdiDor dan adiknya Imutzuko berasal dari gunung di selatan ngawi, semua berubah ketika muzantukam datang dan menghancurkan desa mereka. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, consequuntur nemo. Fuga nobis, omnis eos deleniti architecto earum veniam officia.</p>
-
-<div class="grid grid-cols-6 gap-4 mt-8">
-  <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Action</a>
-  <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Romance</a>
-  <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Comedy</a>
-  <a href="#" class="bg-gray-200 text-cyan-900 text-center py-1 px- rounded-sm ">Fantasy</a>
-</div>
-
-<button class="bg-cyan-900 text-white text-center py-2 px-20 rounded-sm mt-8"><a href="">Play</a></button>
+<a href=""><button class="bg-cyan-900 text-white text-center py-2 px-20 rounded-sm mt-8">Play</button></a>
 
     </div>
 
@@ -89,7 +89,6 @@ include '../templates/header.php';
   </section>
   <!-- end-section1 -->
 
-    
   </div>
   <button id="next" class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl  text-gray-800 p-2 rounded z-10">›</button>
 </div>
@@ -115,7 +114,7 @@ include '../templates/header.php';
     intervalId = setInterval(() => {
       currentIndex = (currentIndex + 1) % totalSections;
       updateSlider();
-    }, 5000);
+    }, 15000);
   }
 
   prevBtn.addEventListener('click', () => {
@@ -138,9 +137,8 @@ include '../templates/header.php';
   
 
 <!-- slider -->
- <div class="relative">
+ <div class="relative  ">
 
-<h1 class="px-14 py-5 font-semibold text-2xl text-cyan-900">Rekomendasi</h1>
 
   <!-- Tombol Kiri -->
   <button id="scrollLeft" class="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-gray-800 text-white p-2 ">
@@ -148,8 +146,10 @@ include '../templates/header.php';
   </button>
 
   <!-- Wrapper Scroll -->
-  <div id="cardContainer" class="overflow-x-auto whitespace-nowrap scroll-smooth px-12">
+  <div class="bg-gradient-to-t from-gray-200/70 to-transparent">
+  <div id="cardContainer" class="overflow-x-auto whitespace-nowrap scroll-smooth px-12  ">
       <!-- card1 -->
+  <a href="#">
   <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
@@ -159,8 +159,10 @@ include '../templates/header.php';
       Card 1
     </div>
   </div>
+  </a>
   <!-- endcard -->
-      <!-- card1 -->
+         <!-- card1 -->
+  <a href="#">
   <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
@@ -170,8 +172,10 @@ include '../templates/header.php';
       Card 1
     </div>
   </div>
+  </a>
   <!-- endcard -->
-      <!-- card1 -->
+          <!-- card1 -->
+  <a href="#">
   <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
@@ -181,8 +185,10 @@ include '../templates/header.php';
       Card 1
     </div>
   </div>
+  </a>
   <!-- endcard -->
-      <!-- card1 -->
+          <!-- card1 -->
+  <a href="#">
   <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
@@ -192,8 +198,10 @@ include '../templates/header.php';
       Card 1
     </div>
   </div>
+  </a>
   <!-- endcard -->
-      <!-- card1 -->
+       <!-- card1 -->
+  <a href="#">
   <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
@@ -203,8 +211,10 @@ include '../templates/header.php';
       Card 1
     </div>
   </div>
+  </a>
   <!-- endcard -->
-      <!-- card1 -->
+          <!-- card1 -->
+  <a href="#">
   <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
@@ -214,8 +224,10 @@ include '../templates/header.php';
       Card 1
     </div>
   </div>
+  </a>
   <!-- endcard -->
-      <!-- card1 -->
+         <!-- card1 -->
+  <a href="#">
   <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
@@ -225,8 +237,10 @@ include '../templates/header.php';
       Card 1
     </div>
   </div>
+  </a>
   <!-- endcard -->
-      <!-- card1 -->
+          <!-- card1 -->
+  <a href="#">
   <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
@@ -236,12 +250,14 @@ include '../templates/header.php';
       Card 1
     </div>
   </div>
+  </a>
   <!-- endcard -->
 </div>
   <!-- Tombol Kanan -->
   <button id="scrollRight" class="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-gray-800 text-white p-2">
     ›
   </button>
+  </div>
 </div>
 
 <script>
@@ -259,10 +275,15 @@ include '../templates/header.php';
 </script>
 <!-- end-slider -->
 
- 
 
- 
-  <!-- end section1  -->
+ <section class="bg-gray-100 w-screen h-screen">
+
+    <div class="container mx-auto py-20 ">
+    <h1>On-Going</h1>
+
+    </div>
+ </section>
+
 <?php
 include '../templates/footer.php';
 ?>
