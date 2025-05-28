@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="../public/assets/css/main.css">
   <title>Ambanime</title>
 </head>
-<body class="bg-gray-50 font-roboto">
+<body class="text-cyan-900 bg-gray-50 font-roboto">
 <!-- Navbar -->
 <nav class="bg-cyan-900 text-white px-6 py-3  ">
   <div class="max-w-9xl mx-auto flex justify-between items-center">

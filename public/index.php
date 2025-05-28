@@ -27,7 +27,7 @@ include '../templates/header.php';
     </div>
 
    <div>
-        <img src="assets/images/1283351.jpg" class="w-full h-full object-cover rounded" alt="gambar anime">
+        <img src="assets/images/Kimetsy.jpg" class="w-full h-full object-cover rounded" alt="gambar anime">
     </div>
 
 
@@ -275,14 +275,89 @@ include '../templates/header.php';
 </script>
 <!-- end-slider -->
 
+<!--on going -->
+ <section class="bg-gray-100 w-screen ">
 
- <section class="bg-gray-100 w-screen h-screen">
-
-    <div class="container mx-auto py-20 ">
-    <h1>On-Going</h1>
-
+    <div class="container mx-auto py-20  ">
+    <h1 class = "font text-4xl font-semibold text-cyan-900" >On-Going</h1>
+    <div class ="grid grid-cols-5 mt-20 gap-7 ">
+      <!-- card1 -->
+      <a href="#">
+  <div class=" w-64 h-80 relative rounded">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/Jojo.jpg);"></div>
+    <!-- Layer gradasi hitam supaya teks lebih terlihat -->
+    <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
+    <!-- Judul card -->
+    <div class="absolute bottom-0 left-0 right-0 p-4 ">
+      
+    <h2 class = "text-white font-semibold text-2xl">Jojo : Batu Laut</h2>
+    <h3 class = "text-white text-md" >Total Episode : 24</h3>
+    <h3 class = "text-white text-md" >Durasi : 24 Menit/Eps </h3>
+      
     </div>
- </section>
+  </div>
+  </a>
+   <a href="#">
+  <div class=" w-64 h-80 relative rounded">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
+    <!-- Layer gradasi hitam supaya teks lebih terlihat -->
+    <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
+    <!-- Judul card -->
+    <div class="absolute bottom-0 left-0 right-0 p-4 ">
+      
+    <h2 class = "text-white font-semibold text-2xl">Jojo : Batu Laut</h2>
+    <h3 class = "text-white text-md" >Total Episode : 24</h3>
+    <h3 class = "text-white text-md" >Durasi : 24 Menit/Eps </h3>
+      
+    </div>
+  </div>
+  </a>
+   <a href="#">
+  <div class=" w-64 h-80 relative rounded">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
+    <!-- Layer gradasi hitam supaya teks lebih terlihat -->
+    <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
+    <!-- Judul card -->
+    <div class="absolute bottom-0 left-0 right-0 p-4 ">
+      
+    <h2 class = "text-white font-semibold text-2xl">Jojo : Batu Laut</h2>
+    <h3 class = "text-white text-md" >Total Episode : 24</h3>
+    <h3 class = "text-white text-md" >Durasi : 24 Menit/Eps </h3>
+      
+    </div>
+  </div>
+  </a>
+   <a href="#">
+  <div class=" w-64 h-80 relative rounded">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
+    <!-- Layer gradasi hitam supaya teks lebih terlihat -->
+    <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
+    <!-- Judul card -->
+    <div class="absolute bottom-0 left-0 right-0 p-4 ">
+      
+    <h2 class = "text-white font-semibold text-2xl">Jojo : Batu Laut</h2>
+    <h3 class = "text-white text-md" >Total Episode : 24</h3>
+    <h3 class = "text-white text-md" >Durasi : 24 Menit/Eps </h3>
+      
+    </div>
+  </div>
+  </a>
+   <a href="#">
+  <div class=" w-64 h-80 relative rounded">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
+    <!-- Layer gradasi hitam supaya teks lebih terlihat -->
+    <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
+    <!-- Judul card -->
+    <div class="absolute bottom-0 left-0 right-0 p-4 ">
+      
+    <h2 class = "text-white font-semibold text-2xl">Jojo : Batu Laut</h2>
+    <h3 class = "text-white text-md" >Total Episode : 24</h3>
+    <h3 class = "text-white text-md" >Durasi : 24 Menit/Eps </h3>
+      
+    </div>
+  </div>
+  </a>
+
 
 <?php
 include '../templates/footer.php';
