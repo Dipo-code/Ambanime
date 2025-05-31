@@ -35,7 +35,7 @@ include '../templates/header.php';
   </section>
   <!-- end-section1 -->
 <!-- Hero / Section 1 -->
-   <section class="bg-gray-100 w-screen ">
+   <section class=" w-screen ">
 
     <div class="container mx-auto py-20 grid  grid-cols-[55%_45%] ">
         <div>
@@ -63,7 +63,7 @@ include '../templates/header.php';
   </section>
   <!-- end-section1 -->
 <!-- Hero / Section 1 -->
-   <section class="bg-gray-100 w-screen ">
+   <section class=" w-screen ">
 
     <div class="container mx-auto py-20 grid  grid-cols-[55%_45%] ">
         <div>
