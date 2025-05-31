@@ -1,6 +1,6 @@
 <!-- end navbar -->
 </main>
- <footer class="bg-gray-900 text-white py-8">
+ <footer class="bg-gray-800 text-white py-8">
   <div class="max-w-6xl mx-auto px-4">
     <div class="flex justify-between">
       <!-- Brand -->
