@@ -35,7 +35,8 @@ include '../templates/header.php';
   </section>
   <!-- end-section1 -->
 <!-- Hero / Section 1 -->
-   <section class=" w-screen ">
+   <section class="
+    w-screen ">
 
     <div class="container mx-auto py-20 grid  grid-cols-[55%_45%] ">
         <div>
@@ -146,11 +147,11 @@ include '../templates/header.php';
   </button>
 
   <!-- Wrapper Scroll -->
-  <div class="bg-gradient-to-t bg-[linear-gradient(to_top,_#111827_30%,_transparent_90%)]">
+  <div class="bg-gradient-to-t bg-[linear-gradient(to_top,_#111827_50%,_transparent_0%)]">
   <div id="cardContainer" class="overflow-x-auto whitespace-nowrap scroll-smooth px-12  no-scrollbar">
       <!-- card1 -->
   <a href="#">
-  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
+  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative shadow-md">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -163,7 +164,7 @@ include '../templates/header.php';
   <!-- endcard -->
          <!-- card1 -->
   <a href="#">
-  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
+  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative shadow-md">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -176,7 +177,7 @@ include '../templates/header.php';
   <!-- endcard -->
           <!-- card1 -->
   <a href="#">
-  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
+  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative shadow-md">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -189,7 +190,7 @@ include '../templates/header.php';
   <!-- endcard -->
           <!-- card1 -->
   <a href="#">
-  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
+  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative shadow-md">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -202,7 +203,7 @@ include '../templates/header.php';
   <!-- endcard -->
        <!-- card1 -->
   <a href="#">
-  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
+  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative shadow-md">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -215,7 +216,7 @@ include '../templates/header.php';
   <!-- endcard -->
           <!-- card1 -->
   <a href="#">
-  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
+  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative shadow-md">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -228,7 +229,7 @@ include '../templates/header.php';
   <!-- endcard -->
          <!-- card1 -->
   <a href="#">
-  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
+  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative shadow-md">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -241,7 +242,7 @@ include '../templates/header.php';
   <!-- endcard -->
           <!-- card1 -->
   <a href="#">
-  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative">
+  <div class="inline-block w-64 h-80 m-2 mx-5 rounded overflow-hidden relative shadow-md">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -276,20 +277,20 @@ include '../templates/header.php';
 <!-- end-slider -->
 
 <!--on going -->
- <section class="bg-gray-900 w-screen ">
+<section class="bg-gray-900  ">
 
   <div class="container mx-auto py-20  ">
   <h1 class = "font text-4xl font-semibold text-white" >On-Going</h1>
-  <div class ="grid grid-cols-5 mt-20 gap-20 ">
+  <div class ="grid grid-cols-5 mt-20 gap-10 ">
 
   <a href="#">
-    <div class=" w-64 h-80 relative rounded">
+    <div class=" w-60 h-80 relative rounded">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t bg-[linear-gradient(to_top,_#1F2937_20%,_transparent_150%)] to-transparent"></div>
     <!-- Judul card -->
     </div>
-    <div class="w-64 bg-gray-800 p-3 ">
+    <div class="w-60 bg-gray-800 p-3 ">
       
     <h2 class = "text-white text-lg font-semibold pb-3">Jojo  Batu Laut</h2>
     <div class="flex justify-between items-center">
@@ -299,13 +300,13 @@ include '../templates/header.php';
     </div>
   </a> 
   <a href="#">
-    <div class=" w-64 h-80 relative rounded">
+    <div class=" w-60 h-80 relative rounded">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t bg-[linear-gradient(to_top,_#1F2937_20%,_transparent_150%)] to-transparent"></div>
     <!-- Judul card -->
     </div>
-    <div class="w-64 bg-gray-800 p-3 ">
+    <div class="w-60 bg-gray-800 p-3 ">
       
     <h2 class = "text-white text-lg font-semibold pb-3">Jojo  Batu Laut</h2>
     <div class="flex justify-between items-center">
@@ -315,13 +316,13 @@ include '../templates/header.php';
     </div>
   </a> 
   <a href="#">
-    <div class=" w-64 h-80 relative rounded">
+    <div class=" w-60 h-80 relative rounded">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t bg-[linear-gradient(to_top,_#1F2937_20%,_transparent_150%)] to-transparent"></div>
     <!-- Judul card -->
     </div>
-    <div class="w-64 bg-gray-800 p-3 ">
+    <div class="w-60 bg-gray-800 p-3 ">
       
     <h2 class = "text-white text-lg font-semibold pb-3">Jojo  Batu Laut</h2>
     <div class="flex justify-between items-center">
@@ -331,13 +332,13 @@ include '../templates/header.php';
     </div>
   </a> 
   <a href="#">
-    <div class=" w-64 h-80 relative rounded">
+    <div class=" w-60 h-80 relative rounded">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t bg-[linear-gradient(to_top,_#1F2937_20%,_transparent_150%)] to-transparent"></div>
     <!-- Judul card -->
     </div>
-    <div class="w-64 bg-gray-800 p-3 ">
+    <div class="w-60 bg-gray-800 p-3 ">
       
     <h2 class = "text-white text-lg font-semibold pb-3">Jojo  Batu Laut</h2>
     <div class="flex justify-between items-center">
@@ -347,23 +348,23 @@ include '../templates/header.php';
     </div>
   </a> 
   <a href="#">
-    <div class=" w-64 h-80 relative rounded">
+    <div class=" w-60 h-80 relative rounded">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(assets/images/1283351.jpg);"></div>
     <!-- Layer gradasi hitam supaya teks lebih terlihat -->
     <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t bg-[linear-gradient(to_top,_#1F2937_20%,_transparent_150%)] to-transparent"></div>
     <!-- Judul card -->
     </div>
-    <div class="w-64 bg-gray-800 p-3 ">
+    <div class="w-60 bg-gray-800 p-3 ">
       
     <h2 class = "text-white text-lg font-semibold pb-3">Jojo  Batu Laut</h2>
     <div class="flex justify-between items-center">
       <h3 class = "text-white text-sm" >Episode 24</h3>
       <h3 class = "text-white text-sm " >24 Menit/Eps </h3>
     </div>
-    </div>
-  </a> 
-  
+  </div>
+</a> 
 </div>
+  
 </div>
 </section>
 <?php

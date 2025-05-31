@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../public/assets/css/style.css">
   <title>Ambanime</title>
 </head>
-<body class="text-cyan-900 bg-gray-50 font-montserrat">
+<body class="text-cyan-900 bg-gray-50 font-montserrat overflow-x-hidden">
 <!-- Navbar -->
 <nav class="bg-gray-800 text-white px-6 py-3  ">
   <div class="max-w-9xl mx-auto flex justify-between items-center">
